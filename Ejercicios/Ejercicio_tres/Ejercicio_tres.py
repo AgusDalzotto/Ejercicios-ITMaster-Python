@@ -28,7 +28,7 @@ class Empleado():
         self.empresa = empresa
 
     def __str__(self) -> str:
-        pass
+        return f"cantidad de empresas a la que pertenece un empleado: {self.empresa}"
 
     def __repr__(self) -> str:
-        pass
+        return f"{self.empresa}"

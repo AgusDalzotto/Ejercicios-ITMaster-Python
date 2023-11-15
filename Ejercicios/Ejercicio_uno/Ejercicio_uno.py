@@ -4,6 +4,9 @@ class Paciente():
         if isinstance(medico, int):
             pass
 
+        else:
+            raise Exception("Valor invalido")
+
         if medico == 1:
             pass
         else:
