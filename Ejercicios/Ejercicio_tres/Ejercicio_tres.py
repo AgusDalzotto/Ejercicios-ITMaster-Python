@@ -15,7 +15,17 @@ class Empresa():
 class Empleado():
 
     def __init__(self, empresa: int):
-        pass
+        if isinstance(empresa, int):
+            pass
+        else:
+            raise Exception("Valor invalido")
+
+        if empresa == 1:
+            pass
+        else:
+            raise Exception("Valor invalido")
+
+        self.empresa = empresa
 
     def __str__(self) -> str:
         pass

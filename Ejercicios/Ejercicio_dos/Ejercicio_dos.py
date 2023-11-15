@@ -1,7 +1,8 @@
 class Libro():
     def __init__(self, escritor: int):
-
-        if escritor == 1:
+        if isinstance(escritor, int):
+            self.empleados = escritor
+        elif escritor == 1:
             pass
         else:
             raise Exception("Valor invalido")

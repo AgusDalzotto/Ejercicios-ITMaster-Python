@@ -1,9 +1,14 @@
 class Paciente():
     def __init__(self, medico: int):
+
+        if isinstance(medico, int):
+            pass
+
         if medico == 1:
             pass
         else:
             raise Exception("Valor invalido")
+
         self.medico = medico
 
     def __str__(self):
