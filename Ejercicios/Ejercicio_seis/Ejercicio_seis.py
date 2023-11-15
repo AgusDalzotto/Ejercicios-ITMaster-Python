@@ -11,13 +11,13 @@ class Avion():
         return f"{self.avion}, {self.aviones_estacionados}"
 
 
-class Aeropuerto():
+class Aeropuerto(Avion):
 
     def __init__(self):
-        pass
+        super.__init__()
 
     def __str__(self):
-        pass
+        return super().__str__()
 
     def __repr__(self):
-        pass
+        return super().__repr__()
