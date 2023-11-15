@@ -13,8 +13,9 @@ class Avion():
 
 class Aeropuerto(Avion):
 
-    def __init__(self):
-        super.__init__()
+    def __init__(self, avion: int, aviones_estacionados: int):
+        self.avion = avion
+        self.aviones_estacionados = aviones_estacionados
 
     def __str__(self):
         return super().__str__()
